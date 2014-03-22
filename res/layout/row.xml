@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	style="@style/Normal"
+	android:orientation="horizontal"
+	>
+	<TextView android:id="@+id/time" style="@style/Normal.Cell.Time" />
+	<TextView android:id="@+id/recruitment" style="@style/Normal.Cell.Count" />
+	<TextView android:id="@+id/campus" style="@style/Normal.Cell.Count" />
+</LinearLayout>

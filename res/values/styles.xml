@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<style name="Full">
+		<item name="android:layout_width">match_parent</item>
+		<item name="android:layout_height">match_parent</item>
+	</style>
+
+	<style name="Normal">
+		<item name="android:layout_width">match_parent</item>
+		<item name="android:layout_height">wrap_content</item>
+	</style>
+
+	<style name="Normal.Cell">
+		<item name="android:layout_width">0dp</item>
+		<item name="android:padding">5dp</item>
+		<item name="android:singleLine">true</item>
+	</style>
+	<style name="Normal.Cell.Time">
+		<item name="android:layout_weight">3</item>
+		<item name="android:gravity">left</item>
+	</style>
+	<style name="Normal.Cell.Count">
+		<item name="android:layout_weight">2</item>
+		<item name="android:gravity">right</item>
+	</style>
+</resources>

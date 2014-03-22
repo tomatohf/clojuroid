@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">clojuroid</string>
+
+	<string name="title_time">时间</string>
+	<string name="title_recruitment">校园招聘</string>
+	<string name="title_campus">宣讲会</string>
+	<string name="title_chart">每天新增数</string>
+
+	<string name="menu_add">读取</string>
+	<string name="menu_refresh">刷新</string>
+	<string name="menu_setting">设置</string>
+
+	<string name="preference_key_auto">auto</string>
+	<string name="preference_title_auto">自动读取</string>
+	<string name="preference_summary_auto">每隔 6 个小时自动读取一次数据</string>
+
+	<string name="toast_text_fail">读取数据失败！</string>
+	<string name="toast_text_refresh">数据已刷新</string>
+	<string name="toast_text_point_recruitment">%1$s 新增校园招聘 %2$.0f</string>
+	<string name="toast_text_point_campus">%1$s 新增宣讲会 %2$.0f</string>
+
+	<string name="dialog_fetch_message">正在读取数据 ...</string>
+</resources>
